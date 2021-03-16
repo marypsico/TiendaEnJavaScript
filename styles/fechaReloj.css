@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+background-color: rgb(235, 191, 133);
+background-size: cover;
+color:aqua;
+font-size: 12px;
+}
+
+.wrap {
+    width: 90%;
+    max-width: 1000px;
+}
+
+.widget {
+    width: 28%;
+    margin: 2em;
+}
+
+.widget p {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.date {
+    font-family: Oswald, Arial;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 11px;
+    width: 100%;
+}
+
+.reloj {
+    font-family: Oswald, Arial;
+    width: 100%;
+    padding: 11px;
+    font-size: 3em;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+.reloj .segundero {
+    display: inline-block;
+}
+.reloj .ampm,
+.reloj .seconds{
+    font-size: 1.2rem;
+    display:block
+}
+h1 {
+    color: rgb(16, 122, 30);
+    text-align: center;
+}
